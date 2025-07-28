@@ -39,8 +39,8 @@ export default function Home() {
           </Link>
         </div>
       </header>
-      <main className="flex flex-col row-start-2 items-center sm:items-start">
-        
+      <main className="flex flex-col row-start-2">
+        <header className="text-[36px]">Games</header>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         ©2025 by AnodyneGames. All rights reserved.
@@ -48,3 +48,4 @@ export default function Home() {
     </div>
   );
 }
+
