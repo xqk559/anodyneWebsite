@@ -30,7 +30,7 @@ export default function Header() {
         </Link>
         <Link 
           href="/games"
-          className={`flex gap-2 hover:underline hover:underline-offset-4 ml-auto self-center ${pathname == "/games" ? "text-red-600" : "text-white"}`}
+          className={`flex gap-2 hover:underline hover:underline-offset-4 ml-auto self-center ${pathname === "/games" ? "text-red-600" : "text-white"}`}
         >
           Games
         </Link>
