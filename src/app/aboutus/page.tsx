@@ -7,7 +7,7 @@ export default function Home() {
       <header className="row-start-1 flex gap-[24px] flex-wrap w-full">
         <Link 
           href="/"
-          className="flex gap-2 hover:underline hover:underline-offset-4 ml-[10px] self-center"
+          className="flex gap-2 hover:underline hover:underline-offset-4 self-center"
         >
           <Image
             className="dark:invert"
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex gap-[24px] flex-wrap ml-auto">
           <Link 
           href="/aboutus"
-          className="flex gap-2 hover:underline hover:underline-offset-4 ml-[10px] self-center"
+          className="flex gap-2 hover:underline hover:underline-offset-4 ml-auto self-center"
           >
             About Us
           </Link>
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex flex-col row-start-2">
-        <header className="text-[36px]">About Us</header>
+        <header className="text-5xl">About Us</header>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         ©2025 by AnodyneGames. All rights reserved.
